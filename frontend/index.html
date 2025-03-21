@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Art Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 Digital Art & Code Marketplace</h1>
+
+        <div class="wallet-section">
+            <button id="connectWallet" onclick="connectMetaMask()">🔗 Connect MetaMask</button>
+            <p id="walletAddress">Not Connected</p>
+        </div>
+
+        <div class="mint-section">
+            <h2>Mint Your NFT</h2>
+            <input type="text" id="tokenURI" placeholder="Enter Token URI">
+            <button id="mintArt">🖼️ Mint NFT</button>
+        </div>
+
+        <div class="list-section">
+            <h2>List NFT for Sale</h2>
+            <input type="number" id="tokenId" placeholder="Token ID">
+            <input type="number" id="price" placeholder="Price in ETH">
+            <button id="listArt">📢 List for Sale</button>
+        </div>
+
+        <div class="buy-section">
+            <h2>Buy NFT</h2>
+            <input type="number" id="buyTokenId" placeholder="Token ID">
+            <button id="buyArt">💰 Buy NFT</button>
+        </div>
+
+        <div class="owned-tokens">
+            <h2>Your NFTs</h2>
+            <button id="fetchOwned">🔍 View My NFTs</button>
+            <ul id="ownedList"></ul>
+        </div>
+    </div>
+</body>
+</html>
