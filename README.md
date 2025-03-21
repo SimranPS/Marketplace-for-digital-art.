@@ -25,3 +25,8 @@ To create a transparent and secure ecosystem where digital creators can monetize
 
 ![image](https://github.com/user-attachments/assets/e093a8dd-799d-4e36-ba87-7a14e39652c4)
 
+##frontend
+
+![image](https://github.com/user-attachments/assets/20f82f45-2948-4678-893b-2c21032655f2)
+
+
