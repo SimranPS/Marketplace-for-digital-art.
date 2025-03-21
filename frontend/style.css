@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1e1e2e;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #ff79c6;
+}
+
+button {
+    background-color: #50fa7b;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #40d77e;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #50fa7b;
+    background-color: #44475a;
+    color: #ffffff;
+}
+
+.owned-tokens ul {
+    list-style: none;
+    padding: 0;
+}
+
+.owned-tokens li {
+    background-color: #6272a4;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
